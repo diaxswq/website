@@ -1,4 +1,4 @@
-/* Загальні стилі для сайту */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,22 +6,22 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Верхня частина сайту */
+
 .header-container {
     display: flex;
     padding: 20px;
-    background-color: #f5f5dc;  /* Бежевий фон */
+    background-color: #f5f5dc;  
 }
 
 .photo {
-    margin-right: 20px;  /* Відступ справа */
+    margin-right: 20px;  
 }
 
 .photo img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;  /* Кругла форма фото */
-    object-fit: cover;  /* Зберігає пропорції зображення */
+    border-radius: 50%; 
+    object-fit: cover;  
 }
 
 .greeting h1, #about h2, #subjects h2 {
@@ -35,9 +35,9 @@ body {
     color: #555;
 }
 
-/* Меню */
+
 .menu-container {
-    background-color: #F5DEB3;  /* Коричневий фон */
+    background-color: #F5DEB3;  
     padding: 10px;
 }
 
@@ -62,12 +62,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    border: 2px solid black;  /* Біла обводка */
+    border: 2px solid black;  
 }
 
-/* Секції контенту */
+
 .content-box {
-    display: none;  /* За замовчуванням всі секції приховані */
+    display: none; 
     padding: 20px;
     margin: 20px;
     background-color: #fff;
@@ -94,12 +94,12 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-/* Показ секції при натисканні на посилання */
+
 :target {
     display: block;
 }
 
-/* Форма зворотного зв'язку */
+
 form {
     display: flex;
     flex-direction: column;
@@ -129,13 +129,13 @@ form button:hover {
     background-color: #7cb342;
 }
 
-/* Спільні стилі для секцій */
+
 section {
-    background-color: white;  /* Забирає фон */
-    padding: 20px;  /* Відступи для тексту */
+    background-color: white;  
+    padding: 20px;  
 }
 
 section h2, section p {
-    font-size: 18px;  /* Розмір шрифта, як в greeting */
-    color: #555;      /* Колір тексту, як в greeting */
+    font-size: 18px;  
+    color: #555;     
 }
